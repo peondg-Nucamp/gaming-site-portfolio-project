@@ -1,0 +1,11 @@
+{
+  "name": "gaming-site-portfolio-project",
+  "version": "1.0.0",
+  "description": "Portfolio Project for fictitious gaming site called All Your Base Games",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Peon",
+  "license": "ISC"
+}
