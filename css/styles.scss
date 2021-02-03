@@ -1,5 +1,8 @@
-$color-red: red;
+$header-font: "Orbitron";
 
-h1 {
-    background-color: $color-red;
+i {
+    span {
+        font-family: $header-font;
+        font-weight: 600;
+    }
 }
