@@ -1,8 +1,23 @@
 $header-font: "Orbitron";
+$navbar-green: #32a883;
+$navbar-active: orange;
 
 i {
+    color: $navbar-green;
     span {
         font-family: $header-font;
         font-weight: 600;
     }
+}
+
+.active {
+    background-color: $navbar-active;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#backgroundImage {
+    width: 100%;
+    height: 65%;
+    margin: 0;
 }
