@@ -13,7 +13,7 @@ body {
     font-weight: 400; }
 
 .active {
-  background-color: orange;
+  background-color: #ddba1d;
   border-radius: 10px;
   padding: 2px; }
 
@@ -23,3 +23,11 @@ body {
 #backgroundImageContainer {
   padding-left: 0;
   padding-right: 0; }
+
+#socialIconSection {
+  color: #f1f3cf; }
+  #socialIconSection i {
+    color: #f1f3cf; }
+
+li a {
+  color: #ddba1d; }

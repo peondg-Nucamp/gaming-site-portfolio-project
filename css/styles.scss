@@ -1,6 +1,7 @@
 $header-font: "Orbitron";
 $navbar-green: #32a883;
-$navbar-active: orange;
+$link-color: rgb(221, 186, 29);
+$icon-color: rgb(241, 243, 207);
 
 i {
     color: $navbar-green;
@@ -22,7 +23,7 @@ body {
 }
 
 .active {
-    background-color: $navbar-active;
+    background-color: $link-color;
     border-radius: 10px;
     padding: 2px;
 }
@@ -34,4 +35,17 @@ body {
 #backgroundImageContainer {
     padding-left: 0;
     padding-right: 0;
+}
+
+#socialIconSection {
+    color: $icon-color;
+    i {
+        color: $icon-color;
+    }
+}
+
+li {
+    a {
+        color: $link-color;
+    }
 }
