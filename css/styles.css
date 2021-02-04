@@ -12,10 +12,16 @@ body {
   body p {
     font-weight: 400; }
 
-.active {
-  background-color: #ddba1d;
+.nav-item {
   border-radius: 10px;
-  padding: 2px; }
+  padding: 2px;
+  margin-right: 4px; }
+
+.nav-item:hover {
+  background-color: #f1f3cf; }
+
+.active {
+  background-color: #ddba1d; }
 
 #backgroundImage {
   width: 100%; }
