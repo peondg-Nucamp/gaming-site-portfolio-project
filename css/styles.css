@@ -2,7 +2,8 @@ i {
   color: #32a883; }
   i span {
     font-family: "Orbitron";
-    font-weight: 600; }
+    font-weight: 600;
+    margin: 0 10px; }
 
 body {
   color: #32a883;
