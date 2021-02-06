@@ -38,3 +38,9 @@ body {
 
 li a {
   color: #ddba1d; }
+
+.fill {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/background-image.jpg"); }

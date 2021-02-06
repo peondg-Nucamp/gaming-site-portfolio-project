@@ -59,3 +59,10 @@ li {
         color: $link-color;
     }
 }
+
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/background-image.jpg');
+}
