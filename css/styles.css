@@ -5,6 +5,10 @@ i {
     font-weight: 600;
     margin: 0 10px; }
 
+.card img {
+  width: auto;
+  height: 300px; }
+
 body {
   color: #32a883;
   font-family: "Orbitron"; }

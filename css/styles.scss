@@ -12,6 +12,13 @@ i {
     }
 }
 
+.card {
+    img{
+        width: auto;
+        height: 300px;
+    }
+}
+
 body {
     color: $navbar-green;
     font-family: $header-font;
