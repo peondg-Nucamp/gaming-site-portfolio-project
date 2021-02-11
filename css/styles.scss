@@ -93,3 +93,13 @@ p.card-text {
 .img-thumbnail {
     background-color: $nes-grey;
 }
+
+.card-button {
+    color: $link-color;
+    border-bottom: 1px solid $link-color;
+}
+
+.card-button:hover {
+    color: $icon-color;
+    border-bottom: 1px solid $icon-color;
+}
