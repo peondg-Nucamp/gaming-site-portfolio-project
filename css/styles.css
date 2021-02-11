@@ -48,3 +48,15 @@ li a {
   background-size: cover;
   background-position: center;
   background-image: url("../img/background-image.jpg"); }
+
+.card-body h4 {
+  color: #f00918; }
+
+.card-body h5 {
+  color: #e4000f; }
+
+p.card-text {
+  color: rgba(26, 23, 23, 0.596); }
+
+.img-thumbnail {
+  background-color: rgba(26, 23, 23, 0.596); }

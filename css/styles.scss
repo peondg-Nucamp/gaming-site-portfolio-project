@@ -2,6 +2,9 @@ $header-font: "Orbitron";
 $navbar-green: #32a883;
 $link-color: rgb(221, 186, 29);
 $icon-color: rgb(241, 243, 207);
+$nes-dark-red: #f00918;
+$nes-red: #e4000f;
+$nes-grey: rgba(26, 23, 23, 0.596);
 
 i {
     color: $navbar-green;
@@ -72,4 +75,21 @@ li {
     background-size: cover;
     background-position: center;
     background-image: url('../img/background-image.jpg');
+}
+
+.card-body {
+    h4 {
+        color: $nes-dark-red;
+    }
+    h5 {
+        color: $nes-red;
+    }
+}
+
+p.card-text {
+    color: $nes-grey;
+}
+
+.img-thumbnail {
+    background-color: $nes-grey;
 }
