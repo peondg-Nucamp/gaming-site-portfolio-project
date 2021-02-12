@@ -55,16 +55,49 @@
 
     <!-- MAIN SECTION  -->
     <div class="container-fluid bg-dark">
-        <div class="row" style="height: 100px;">
-            <div class="col">
-
+        <h2 class="text-center">We'd Love To Hear From You!</h2>
+        <form class="mx-auto py-4 w-75">
+            <div class="form-group row">
+                <label for="#inputName" class="col-sm-3 col-form-label">Name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+              </div>
+            <div class="form-group row">
+              <label for="#inputEmail" class="col-sm-3 col-form-label">Email address</label>
+              <div class="col-sm-9">
+                  <input type="email" class="form-control" id="inputEmail">
+              </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-5 ml-auto mr-auto text-center" style="height: 400px;">
-                <h1>CONTACT US PAGE</h1>
+            <div class="form-group row">
+              <label for="#inputTextComments" class="col-sm-3 col-form-label">Questions / Comments</label>
+              <div class="col-sm-9">
+                <textarea class="form-control" id="inputTextComments" rows="7"></textarea>
+              </div>
             </div>
-        </div>
+            <div class="form-group row">
+                <label for="#inputTextFeedback" class="col-sm-3 col-form-label">Feedback</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" id="inputFeedback" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-group row justify-content-around">
+                <p class="col-sm-10">Would you like to be subscribed to our e-mail list? <br/><em> (You will receive news and updates on the latest games, including patches and bug fixes for known issues.)</em></p>
+                <div class="col-sm-2">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="yesNoRadioButtons" id="yesRadioButton" value="yes" checked>
+                        <label class="form-check-label" for="yesRadioButton"> Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="yesNoRadioButtons" id="noRadioButton" value="yes">
+                        <label class="form-check-label" for="noRadioButton"> No</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row justify-content-end">
+                <button type="submit" class="btn btn-warning text-success">Submit</button>
+            </div>
+          </form>
     </div>
 
     <!-- FOOTER SECTION  -->
