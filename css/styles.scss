@@ -94,12 +94,11 @@ p.card-text {
     background-color: $nes-grey;
 }
 
-.card-button {
+span[data-toggle="modal"] {
     color: $link-color;
-    border-bottom: 1px solid $link-color;
 }
 
-.card-button:hover {
+span[data-toggle="modal"]:hover {
     color: $icon-color;
-    border-bottom: 1px solid $icon-color;
+    cursor: pointer;
 }

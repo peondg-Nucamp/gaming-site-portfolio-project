@@ -61,10 +61,9 @@ p.card-text {
 .img-thumbnail {
   background-color: rgba(26, 23, 23, 0.596); }
 
-.card-button {
-  color: #ddba1d;
-  border-bottom: 1px solid #ddba1d; }
+span[data-toggle="modal"] {
+  color: #ddba1d; }
 
-.card-button:hover {
+span[data-toggle="modal"]:hover {
   color: #f1f3cf;
-  border-bottom: 1px solid #f1f3cf; }
+  cursor: pointer; }
