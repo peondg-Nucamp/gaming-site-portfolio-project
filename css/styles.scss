@@ -102,3 +102,24 @@ span[data-toggle="modal"]:hover {
     color: $icon-color;
     cursor: pointer;
 }
+
+button {
+    margin-right: 10px;
+    i {
+        color: $icon-color;
+    }
+}
+
+hr {
+    border-top: 3px solid $nes-grey;
+}
+
+.user-comment {
+    background-color: white;
+    width: 100%;
+}
+
+.user-reply {
+    background-color: white;
+    width: 75%;
+}

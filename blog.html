@@ -54,17 +54,134 @@
     </nav>
 
     <!-- MAIN SECTION  -->
-    <div class="container-fluid bg-dark">
-        <div class="row" style="height: 100px;">
-            <div class="col">
-
-            </div>
-        </div>
+    <div class="container-fluid bg-warning">
         <div class="row">
-            <div class="col-5 ml-auto mr-auto text-center" style="height: 400px;">
-                <h1>BLOG PAGE</h1>
+            <!-- LOGIN FORM SECTION  -->
+            <div class="col-md-6 col-lg-5 mx-auto">
+                <h4 class="text-center py-3" data-toggle="tooltip" data-placement="top" title="Login to add or edit a comment">Login</h4>
+                <form action="#">
+                    <div class="form-group row">
+                        <label for="#usernameLogin" class="col-sm-3 col-form-label">Username</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="usernameLogin" name="username">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="#passwordLogin" class="col-sm-3 col-form-label">Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="passwordLogin" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <button type="submit" class="btn btn-success text-white">Login</button>
+                    </div>
+                </form>
+            </div>     
+            <!-- SIGN UP FORM SECTION         -->
+            <div class="col-md-6 col-lg-5 mx-auto">
+                <h4 class="text-center py-3" data-toggle="tooltip" data-placement="top" title="Sign up for our free blog here">Sign Up:</h4>
+                <form action="#">
+                    <div class="form-group row">
+                        <label for="#usernameSignup" class="col-sm-3 col-form-label">Username</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="usernameSignup" name="username">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="#passwordSignup" class="col-sm-3 col-form-label">Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="passwordSignup" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <button type="submit" class="btn btn-success text-white">Sign Up</button>
+                    </div>
+                </form>
             </div>
         </div>
+        <hr>
+        <!-- POST COMMENTS SECTION  -->
+        <div class="container py-4">
+            <!-- BUTTONS SECTION  -->
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+                    <button class="btn btn-danger"><i class="fa fa-thumbs-down"></i></button>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-success"  data-toggle="tooltip" data-placement="top" title="You are currently signed in as">user123</button>
+                </div>
+            </div>
+            <!-- ADD COMMENTS SECTION  -->
+            <div class="row py-4">
+                <div class="col">  
+                    <form action="#">
+                        <div class="form-group row">
+                            <label for="#blogComment" class="col-sm-3 col-form-label">Add New Comment</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" id="blogComment" rows="7" name="comments"></textarea>
+                            </div>
+                        </div>
+                        <div class="dropdown form-group row justify-content-end">
+                            <button type="submit" class="btn btn-success text-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Post As</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">user123</a>
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Option 2</a>
+                                <a class="dropdown-item" href="#">Option 3</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- SHOWING COMMENTS SECTION -->
+            <div class="row py-4 justify-content-end">
+                <h5>Showing 2 Comments...</h5>
+                <!-- COMMENT 1    -->
+                <div class="row user-comment bg-dark align-items-center my-2">
+                    <div class="col">
+                        <img src="img/john-smith-avatar.svg" alt="user 1 icon" width="50">
+                        <a href="#"> John Smith</a>
+                    </div>
+                    <div class="col">
+                        <span>2 hours ago</span>
+                    </div>
+                </div>
+                <div class="row justify-content-end my-2">
+                    <div class="col-11 bg-light rounded p-3">
+                        <p>I'm 2 hours into Village Protectors, and I'm starting to see it slow down quite a bit. Has anyone noticed this while playing?My PC has an Nvidia GTX GeForce GTX 1650...</p>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col mx-5">
+                        <button class="btn btn-primary"> Like </button>
+                        <button class="btn btn-success"> Reply </button>
+                    </div>
+                </div>
+                <!-- COMMENT 2    -->
+                <div class="row user-reply bg-dark align-items-center my-2">
+                    <div class="col">
+                        <img src="img/joe-thomas-avatar.svg" alt="user 2 icon" width="50">
+                        <a href="#"> Joe Thomas</a> 
+                    </div>
+                    <div class="col">
+                        <span>1 hour ago</span>
+                    </div>
+                </div>
+                <div class="row justify-content-end my-2">
+                    <div class="col-8 bg-light rounded p-3">
+                        <p>Yes, I noticed the same problem. I thing it might have something to do with the drivers needing to be updated. Hopefully, this will be fixed soon. I have mentioned it to the developers, and they have said that they are aware of some compatibility issues since earlier this year, and it is being worked on.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col">
+                        <button class="btn btn-primary"> Like </button>
+                        <button class="btn btn-success"> Reply </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
 
     <!-- FOOTER SECTION  -->

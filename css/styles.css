@@ -67,3 +67,19 @@ span[data-toggle="modal"] {
 span[data-toggle="modal"]:hover {
   color: #f1f3cf;
   cursor: pointer; }
+
+button {
+  margin-right: 10px; }
+  button i {
+    color: #f1f3cf; }
+
+hr {
+  border-top: 3px solid rgba(26, 23, 23, 0.596); }
+
+.user-comment {
+  background-color: white;
+  width: 100%; }
+
+.user-reply {
+  background-color: white;
+  width: 75%; }

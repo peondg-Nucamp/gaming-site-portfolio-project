@@ -55,41 +55,44 @@
 
     <!-- MAIN SECTION  -->
     <div class="container-fluid bg-dark">
-        <h2 class="text-center">We'd Love To Hear From You!</h2>
+        <div class="mx-auto w-75">
+            <h2 class="text-center">CONTACT FORM</h2>
+            <p class="py-2">We'd Love to hear from you! Please enter the following information, along with anything you would like to ask us or tell us about us. We welcome any and all criticism, positive or negative, and will try to address any concernss, as well. We will also do our best to reply back within a timely manner. </p>
+        </div>
         <form class="mx-auto py-4 w-75">
             <div class="form-group row">
                 <label for="#inputName" class="col-sm-3 col-form-label">Name</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" id="inputName">
+                    <input type="text" class="form-control" id="inputName" name="name">
                 </div>
-              </div>
+            </div>
             <div class="form-group row">
               <label for="#inputEmail" class="col-sm-3 col-form-label">Email address</label>
               <div class="col-sm-9">
-                  <input type="email" class="form-control" id="inputEmail">
+                  <input type="email" class="form-control" id="inputEmail" name="email">
               </div>
             </div>
             <div class="form-group row">
               <label for="#inputTextComments" class="col-sm-3 col-form-label">Questions / Comments</label>
               <div class="col-sm-9">
-                <textarea class="form-control" id="inputTextComments" rows="7"></textarea>
+                <textarea class="form-control" id="inputTextComments" rows="7" name="comments"></textarea>
               </div>
             </div>
             <div class="form-group row">
                 <label for="#inputTextFeedback" class="col-sm-3 col-form-label">Feedback</label>
                 <div class="col-sm-9">
-                    <textarea class="form-control" id="inputFeedback" rows="5"></textarea>
+                    <textarea class="form-control" id="inputFeedback" rows="5" name="feedback"></textarea>
                 </div>
             </div>
             <div class="form-group row justify-content-around">
                 <p class="col-sm-10">Would you like to be subscribed to our e-mail list? <br/><em> (You will receive news and updates on the latest games, including patches and bug fixes for known issues.)</em></p>
                 <div class="col-sm-2">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="yesNoRadioButtons" id="yesRadioButton" value="yes" checked>
+                        <input class="form-check-input" type="radio" name="yesNoRadio" id="yesRadioButton" value="yes" checked>
                         <label class="form-check-label" for="yesRadioButton"> Yes</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="yesNoRadioButtons" id="noRadioButton" value="yes">
+                        <input class="form-check-input" type="radio" name="yesNoRadio" id="noRadioButton" value="yes">
                         <label class="form-check-label" for="noRadioButton"> No</label>
                     </div>
                 </div>
